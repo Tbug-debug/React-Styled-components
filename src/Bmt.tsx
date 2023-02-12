@@ -209,7 +209,6 @@ function Bmt() {
     const value = e.currentTarget.value;
     const regex = /[^0-9]/g;
     const result = value.replace(regex, "");
-    console.log(result === "");
     if (result === "") {
       window.location.reload();
     } else {
