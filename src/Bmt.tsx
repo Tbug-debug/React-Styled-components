@@ -207,8 +207,15 @@ function Bmt() {
 
   const changeEnteredNum = (e: ChangeEvent<HTMLInputElement>) => {
     const value = e.currentTarget.value;
-    const comaOne = Number(value.replaceAll(",", ""));
-    setComma(comaOne.toLocaleString());
+    const regex = /[^0-9]/g;
+    const result = value.replace(regex, "");
+    console.log(result === "");
+    if (result === "") {
+      window.location.reload();
+    } else {
+      const comaOne = Number(value.replaceAll(",", ""));
+      setComma(comaOne.toLocaleString());
+    }
   };
 
   const changeText = (e: ChangeEvent<HTMLInputElement>) => {
