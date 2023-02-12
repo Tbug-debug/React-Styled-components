@@ -24,7 +24,7 @@ React Redux를 사용하여 Input, Modal, Select, Button을 css 연습을 해보
 ![제목 없음](https://user-images.githubusercontent.com/76459231/218292037-2b3da7bd-42df-4492-8b4e-0bea1d47e6ca.png)
 
 ## 4. 각종 기능
-* 버튼들 중에 2개를 누르면 alert가 작동한다.
+* 버튼을 누르면 alert가 작동한다.
 * 가격 input에 숫자 3자리마다 콤마가 찍힌다.
 * 모달을 열고 모달을 닫을 때는 버튼을 클릭하거나 혹은 외부를 클릭해도 모달이 닫힌다.
 * Select 중 하나가 overflow hidden으로 가려진다.
